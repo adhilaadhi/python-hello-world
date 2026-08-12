@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: adhilaadhi/fastapi-app:latest
+          image: adhilaadhi/python-hello-world:3
           ports:
             - containerPort: 8000
           env:
